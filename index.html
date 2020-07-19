@@ -45,6 +45,9 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+                <div class="col-12 mt-5 mt-sm-0 col-sm-3 text-center align-self-center">
+                    <a href="#reservation" type="button" class="btn btn-sm btn-warning">Reserve table</a>
+                </div>
             </div>
         </div>
     </header>
@@ -59,7 +62,7 @@
                     <img class="d-flex mr-3 img-thumbnail align-self-center"
                             src="img/uthappizza.png" alt="Uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza</h2>
+                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
                         <p class="hidden-xs-down">A unique combination of Indian Uthappam (pancake) and
                             Italian pizza, topped with Cerignola olives, ripe vine
                             cherry tomatoes, Vidalia onion, Guntur chillies and
@@ -76,11 +79,12 @@
             </div>
             <div class="col-sm col-md">
                 <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center flex-last" src="img/buffet.png" alt="Buffet">
+                    
                     <div class="media-body flex-first">
-                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">HOT</span></h2>
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
                         <p class="hidden-xs-down">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person.</p>
                     </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center flex-last" src="img/buffet.png" alt="Buffet">
                 </div>
             </div>
         </div>
@@ -105,7 +109,62 @@
                 </div>
             </div>
         </div>
+
     </div>
+    <div class="row row-content justify-content-center id="reservation"">
+
+            <div class="col-12 col-sm-6">
+                <div class="card">
+                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                    <div class="card-body">
+                        
+                    <form>
+                        <div class="form-group row">
+                          <label class="col-12 col-sm-2"><STRONG>Number of Guests</STRONG></label>
+                            <div class="col">
+                                <div class="form-check form-check-inline">
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="one_guest_radio" value="one" checked>
+                                  <label class="form-check-label" for="one_guest_radio">1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="two_guest_radio" value="two">
+                                 <label class="form-check-label" for="two_guest_radio">2</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="three_guest_radio" value="three">
+                                 <label class="form-check-label" for="three_guest_radio">3</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="four_guest_radio" value="four">
+                                 <label class="form-check-label" for="four_guest_radio">4</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="six_guest_radio" value="six">
+                                 <label class="form-check-label" for="six_guest_radio">6</label>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="form-group row">
+                            <label class="col-12 col-sm-2"><strong>Date and Time</strong></label>
+                            <div class="col-12 col-sm-4">
+                              <input type="date" class="form-control" id="date" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-sm-4">
+                              <input type="time" class="form-control" id="time" placeholder="Time">
+                            </div>
+                            </div>
+                          <div class="form-group row">
+                            <div class="col offset-0 offset-sm-2">
+                              <button type="submit" class="btn btn-primary"><STRONG>Reserve</STRONG></button>
+                            </div>
+                          </div>
+                    </form> 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
 
     <footer class="footer">
         <div class="container">
@@ -140,8 +199,8 @@
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
-           </div>
-           <div class="row justify-content-center">             
+            </div>
+            <div class="row justify-content-center">             
                 <div class="col-auto">
                     <p>© Copyright 2015 Ristorante Con Fusion</p>
                 </div>
