@@ -1,10 +1,10 @@
 # Front-End-Web-UI-Frameworks-and-Tools-Bootstrap-4
 
 
+This repo contents all basics need to know for Bootstrap-4
+Here you will get to see all commits step by step  
 
-IF you want to get see all commits step bt step then visit another repo name as - Front-End-Web-UI-Frameworks-and-Tools-Bootstrap-4
-
-Front-End-Web-UI-Frameworks-and-Tools-Bootstrap-4 - Here are all weeks code in step by step check all commits to visit the each week
+Front-End-Web-UI-Frameworks-and-Tools-Bootstrap-4 - Here are all weeks code in step by step ------ check all commits to visit the each week
 
 # Front-End-Web-UI-Frameworks-and-Tools-Bootstrap-4-ALL-WEEKS
 
